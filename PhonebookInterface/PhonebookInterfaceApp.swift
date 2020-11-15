@@ -14,9 +14,14 @@ struct PhonebookInterfaceApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environmentObject(api)
+            
+            if api.contactList == nil {
+                Text("Couldn't get data from API")
                 .onAppear() { api.fetchData() }
+            } else {
+            ContentView(sortedContacts: SortingManager(contactList: api.contactList!))
+                .environmentObject(api)
+            }
         }
     }
 }

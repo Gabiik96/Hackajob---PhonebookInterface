@@ -24,7 +24,6 @@ class NetworkingApi: NetworkingService, ObservableObject {
                 switch response.result {
                 case.success(let contacts):
                     self.contactList = contacts
-                    
                 case.failure(let error):
                     print("\(error) Failed to fetch data from API")
                 }

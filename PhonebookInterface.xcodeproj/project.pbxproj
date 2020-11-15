@@ -23,6 +23,7 @@
 		42B1B400256170BF0083AEE7 /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B1B3FF256170BF0083AEE7 /* ContactCell.swift */; };
 		42B1B404256170EB0083AEE7 /* ContactDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B1B403256170EB0083AEE7 /* ContactDetail.swift */; };
 		42B1B411256187360083AEE7 /* ContactList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B1B410256187360083AEE7 /* ContactList.swift */; };
+		42B1B414256189500083AEE7 /* SortingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B1B413256189500083AEE7 /* SortingManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		42B1B3FF256170BF0083AEE7 /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
 		42B1B403256170EB0083AEE7 /* ContactDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetail.swift; sourceTree = "<group>"; };
 		42B1B410256187360083AEE7 /* ContactList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactList.swift; sourceTree = "<group>"; };
+		42B1B413256189500083AEE7 /* SortingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				42B1B3E3255F3D510083AEE7 /* NetworkingService.swift */,
+				42B1B413256189500083AEE7 /* SortingManager.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 				42B1B3F525616CA40083AEE7 /* NavBarModifier.swift in Sources */,
 				42B1B3EE25616A840083AEE7 /* Font.swift in Sources */,
 				42B1B3FD25616D770083AEE7 /* SearchBar.swift in Sources */,
+				42B1B414256189500083AEE7 /* SortingManager.swift in Sources */,
 				42B1B3C7255F3B9C0083AEE7 /* PhonebookInterfaceApp.swift in Sources */,
 				42B1B3E4255F3D510083AEE7 /* NetworkingService.swift in Sources */,
 				42B1B404256170EB0083AEE7 /* ContactDetail.swift in Sources */,
