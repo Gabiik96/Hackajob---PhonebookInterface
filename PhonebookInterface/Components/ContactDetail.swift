@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-
 struct ContactDetail: View {
     
     let contact: Contact

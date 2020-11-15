@@ -6,15 +6,6 @@
 //
 
 import Foundation
-import SwiftyJSON
-
-struct ContactList: Decodable {
-    var contacts: [Contact]
-    
-    private enum CodingKeys: CodingKey {
-        case contacts
-    }
-}
 
 struct Contact: Decodable, Hashable {
     
@@ -27,5 +18,4 @@ struct Contact: Decodable, Hashable {
         case phoneNumber = "phone_number"
         case address
     }
-    
 }

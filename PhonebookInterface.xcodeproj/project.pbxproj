@@ -22,6 +22,7 @@
 		42B1B3FD25616D770083AEE7 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B1B3FC25616D770083AEE7 /* SearchBar.swift */; };
 		42B1B400256170BF0083AEE7 /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B1B3FF256170BF0083AEE7 /* ContactCell.swift */; };
 		42B1B404256170EB0083AEE7 /* ContactDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B1B403256170EB0083AEE7 /* ContactDetail.swift */; };
+		42B1B411256187360083AEE7 /* ContactList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B1B410256187360083AEE7 /* ContactList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		42B1B3FC25616D770083AEE7 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		42B1B3FF256170BF0083AEE7 /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
 		42B1B403256170EB0083AEE7 /* ContactDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetail.swift; sourceTree = "<group>"; };
+		42B1B410256187360083AEE7 /* ContactList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				42B1B3D6255F3BF60083AEE7 /* Contact.swift */,
+				42B1B410256187360083AEE7 /* ContactList.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 			files = (
 				42B1B400256170BF0083AEE7 /* ContactCell.swift in Sources */,
 				42B1B3F925616CC50083AEE7 /* NavigationBar.swift in Sources */,
+				42B1B411256187360083AEE7 /* ContactList.swift in Sources */,
 				42B1B3D7255F3BF60083AEE7 /* Contact.swift in Sources */,
 				42B1B3C9255F3B9C0083AEE7 /* ContentView.swift in Sources */,
 				42B1B3F525616CA40083AEE7 /* NavBarModifier.swift in Sources */,

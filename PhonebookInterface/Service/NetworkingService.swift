@@ -7,7 +7,6 @@
 
 import Foundation
 import Alamofire
-import SwiftyJSON
 
 protocol NetworkingService {
     func fetchData()
@@ -31,5 +30,4 @@ class NetworkingApi: NetworkingService, ObservableObject {
                 }
             }
     }
-    
 }
