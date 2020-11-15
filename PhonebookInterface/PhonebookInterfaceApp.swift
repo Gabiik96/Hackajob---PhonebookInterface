@@ -14,13 +14,14 @@ struct PhonebookInterfaceApp: App {
     
     var body: some Scene {
         WindowGroup {
-            
-            if api.contactList == nil {
+            if api.contactList == nil && api.isLoading == false {
                 Text("Couldn't get data from API")
-                .onAppear() { api.fetchData() }
+                    .onAppear() { api.fetchData() }
+            } else if api.contactList == nil && api.isLoading == true {
+                ActivityIndicator(isAnimating: $api.isLoading, count: 3, size: 100)
             } else {
-            ContentView(sortedContacts: SortingManager(contactList: api.contactList!))
-                .environmentObject(api)
+                ContentView(sortedContacts: SortingManager(contactList: api.contactList!))
+                    .environmentObject(api)
             }
         }
     }

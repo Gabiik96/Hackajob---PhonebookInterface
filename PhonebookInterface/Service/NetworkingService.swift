@@ -15,17 +15,22 @@ protocol NetworkingService {
 class NetworkingApi: NetworkingService, ObservableObject {
     
     @Published var contactList: ContactList?
+    @Published var isLoading = false
+    @Published var error: AFError?
     private let apiURL = "http://mocky.io/v2/581335f71000004204abaf83"
     
     func fetchData() {
         AF.request(apiURL)
             .validate()
             .responseDecodable(of: ContactList.self) { (response) in
+                self.isLoading = true
                 switch response.result {
                 case.success(let contacts):
                     self.contactList = contacts
+                    self.isLoading = false
                 case.failure(let error):
-                    print("\(error) Failed to fetch data from API")
+                    self.error = error
+                    self.isLoading = false
                 }
             }
     }

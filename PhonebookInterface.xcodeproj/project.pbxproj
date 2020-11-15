@@ -24,6 +24,7 @@
 		42B1B404256170EB0083AEE7 /* ContactDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B1B403256170EB0083AEE7 /* ContactDetail.swift */; };
 		42B1B411256187360083AEE7 /* ContactList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B1B410256187360083AEE7 /* ContactList.swift */; };
 		42B1B414256189500083AEE7 /* SortingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B1B413256189500083AEE7 /* SortingManager.swift */; };
+		42B1B41725619B5D0083AEE7 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B1B41625619B5D0083AEE7 /* ActivityIndicator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		42B1B403256170EB0083AEE7 /* ContactDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetail.swift; sourceTree = "<group>"; };
 		42B1B410256187360083AEE7 /* ContactList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactList.swift; sourceTree = "<group>"; };
 		42B1B413256189500083AEE7 /* SortingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingManager.swift; sourceTree = "<group>"; };
+		42B1B41625619B5D0083AEE7 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 				42B1B403256170EB0083AEE7 /* ContactDetail.swift */,
 				42B1B3FC25616D770083AEE7 /* SearchBar.swift */,
 				42B1B3F425616CA40083AEE7 /* NavBarModifier.swift */,
+				42B1B41625619B5D0083AEE7 /* ActivityIndicator.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 				42B1B3F925616CC50083AEE7 /* NavigationBar.swift in Sources */,
 				42B1B411256187360083AEE7 /* ContactList.swift in Sources */,
 				42B1B3D7255F3BF60083AEE7 /* Contact.swift in Sources */,
+				42B1B41725619B5D0083AEE7 /* ActivityIndicator.swift in Sources */,
 				42B1B3C9255F3B9C0083AEE7 /* ContentView.swift in Sources */,
 				42B1B3F525616CA40083AEE7 /* NavBarModifier.swift in Sources */,
 				42B1B3EE25616A840083AEE7 /* Font.swift in Sources */,
